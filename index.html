@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X-O</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <!-- alertify -->
+  <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="parent" id="parent">
+    <div class="result">
+      <div id="x"></div>
+      <div id="o"></div>
+      <button onclick="result()">reset result</button>
+    </div>
+    <div class="container" id="container">
+      <div class="all-content">
+        <div class="header" id="header">
+          <h2>x turn</h2>
+        </div>
+        <div class="body-game" id="squares">
+          <!-- Row 1 -->
+          <div class="square" value="1" style="border-top: none; border-left: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <div class="square" value="2" style="border-top: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <div class="square" value="3" style="border-top: none; border-right: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <!-- Row 2 -->
+          <div class="square" value="4" style="border-left: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <div class="square" value="5">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <div class="square" value="6" style="border-right: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <!-- Row 3 -->
+          <div class="square" value="7" style="border-bottom: none; border-left: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <div class="square" value="8" style="border-bottom: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+          <div class="square" value="9" style="border-bottom: none; border-right: none;">
+            <h3 class="square-content">
+              
+            </h3>
+          </div>
+        </div>
+        <div class="btn">
+          <button onclick="clickbtn()">reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
